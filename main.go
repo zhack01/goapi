@@ -22,7 +22,7 @@ func main() {
 	}
 
 	if os.Getenv("ENV") == "local" {
-		r.Run("127.0.0.1:1111")
+		r.Run("127.0.0.1:8080")
 	} else {
 		r.Run(":1111")
 	}
